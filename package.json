@@ -1,15 +1,15 @@
 {
-  "name": "my-react-cli",
-  "version": "1.0.1",
+  "name": "haohan-cli",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "my-react-cli": "./bin/index.js"
+    "haohan-cli": "./bin/index.js"
   },
-  "author": "",
+  "author": "fzz14hao",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0",

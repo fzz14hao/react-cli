@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const program = require('commander')
+const chalk = require('chalk')
 
 const packageJson = require('../package.json')
 const init = require('../lib/init')
@@ -8,6 +9,8 @@ const init = require('../lib/init')
 
 
 program.version(packageJson.version)
+
+console.log('您正在使用' + chalk.yellow(`v${packageJson.version}`) + `版本脚手架`)
 
 program
   .command('create <name>')
